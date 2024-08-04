@@ -1,0 +1,76 @@
+chameleon:
+  undirected: False
+  self_loops: False
+  transpose: False
+  dropout: 0
+  weight_decay: 0
+  num_epochs: 10000
+
+  lr: 0.005
+  hidden_dim: 128
+  num_layers: 5
+  jk: "max"
+  patience: 600
+  normalize: True
+
+# squirrel:
+#   undirected: False
+#   self_loops: False
+#   transpose: False
+#   dropout: 0
+#   weight_decay: 0
+#   num_epochs: 10000
+
+#   lr: 0.01
+#   hidden_dim: 128
+#   num_layers: 4
+#   jk: "max"
+#   patience: 400
+#   normalize: True
+
+# 0.7765609990393851 +- 0.020049943132633204
+squirrel:
+  undirected: False
+  self_loops: False
+  transpose: False
+  dropout: 0
+  weight_decay: 0.00005
+  num_epochs: 1000
+
+  lr: 0.01
+  hidden_dim: 64
+  num_layers: 2
+  jk: "max"
+  patience: 400
+  normalize: True
+
+
+citeseer: 
+  undirected: False
+  self_loops: False
+  transpose: False
+  dropout: 0
+  weight_decay: 0
+  num_epochs: 10000
+
+  lr: 0.01
+  hidden_dim: 128
+  num_layers: 2
+  jk: "max"
+  patience: 400
+  normalize: True
+
+cora_ml: 
+  undirected: False
+  self_loops: False
+  transpose: False
+  dropout: 0
+  weight_decay: 0
+  num_epochs: 10000
+
+  lr: 0.01
+  hidden_dim: 64
+  num_layers: 2
+  jk: "max"
+  patience: 400
+  normalize: True
